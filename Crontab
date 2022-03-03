@@ -1,0 +1,6 @@
+AWS_ACCESS_KEY_ID=<<access key>>
+AWS_SECRET_ACCESS_KEY=<<secret>>
+KOPIA_PASSWORD=<<repository password>>
+KOPIA_CHECK_FOR_UPDATES=false
+
+*/15 * * * * /root/jenkins-kopia.sh 2>&1
